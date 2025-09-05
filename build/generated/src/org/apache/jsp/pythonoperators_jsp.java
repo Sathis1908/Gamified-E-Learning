@@ -1,0 +1,277 @@
+package org.apache.jsp;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.jsp.*;
+
+public final class pythonoperators_jsp extends org.apache.jasper.runtime.HttpJspBase
+    implements org.apache.jasper.runtime.JspSourceDependent {
+
+  private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
+
+  private static java.util.List<String> _jspx_dependants;
+
+  private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
+
+  public java.util.List<String> getDependants() {
+    return _jspx_dependants;
+  }
+
+  public void _jspService(HttpServletRequest request, HttpServletResponse response)
+        throws java.io.IOException, ServletException {
+
+    PageContext pageContext = null;
+    HttpSession session = null;
+    ServletContext application = null;
+    ServletConfig config = null;
+    JspWriter out = null;
+    Object page = this;
+    JspWriter _jspx_out = null;
+    PageContext _jspx_page_context = null;
+
+    try {
+      response.setContentType("text/html");
+      pageContext = _jspxFactory.getPageContext(this, request, response,
+      			null, true, 8192, true);
+      _jspx_page_context = pageContext;
+      application = pageContext.getServletContext();
+      config = pageContext.getServletConfig();
+      session = pageContext.getSession();
+      out = pageContext.getOut();
+      _jspx_out = out;
+      _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
+
+      out.write("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n");
+      out.write("<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n");
+      out.write("<head>\r\n");
+      out.write("<title>GamifiedElearning</title>\r\n");
+      out.write("<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n");
+      out.write("<link href=\"css/style.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n");
+      out.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"css/coin-slider.css\" />\r\n");
+      out.write("<script type=\"text/javascript\" src=\"js/cufon-yui.js\"></script>\r\n");
+      out.write("<script type=\"text/javascript\" src=\"js/cufon-marketingscript.js\"></script>\r\n");
+      out.write("<script type=\"text/javascript\" src=\"js/jquery-1.4.2.min.js\"></script>\r\n");
+      out.write("<script type=\"text/javascript\" src=\"js/script.js\"></script>\r\n");
+      out.write("<script type=\"text/javascript\" src=\"js/coin-slider.min.js\"></script>\r\n");
+      out.write("<style type=\"text/css\">\r\n");
+      out.write("<!--\r\n");
+      out.write(".style14 {color: #3f3f3f; }\r\n");
+      out.write(".style15 {font-size: 14px}\r\n");
+      out.write("-->\r\n");
+      out.write("</style>\r\n");
+      out.write("</head>\r\n");
+      out.write("<body>\r\n");
+      out.write("<div class=\"main\">\r\n");
+      out.write("  <div class=\"header\">\r\n");
+      out.write("    <div class=\"header_resize\">\r\n");
+      out.write("      <div class=\"searchform\">\r\n");
+      out.write("        <form id=\"formsearch\" name=\"formsearch\" method=\"post\" action=\"#\">\r\n");
+      out.write("        </form>\r\n");
+      out.write("      </div>\r\n");
+      out.write("      <div class=\"menu_nav\">\r\n");
+      out.write("        <ul>\r\n");
+      out.write("          <li class=\"active\"><a href=\"index.jsp\"><span>Home Page</span></a></li>\r\n");
+      out.write("          <li><a href=\"userlogin.jsp\"><span>Logout</span></a></li>\r\n");
+      out.write("          <li></li>\r\n");
+      out.write("        </ul>\r\n");
+      out.write("      </div>\r\n");
+      out.write("      <div class=\"clr\"></div>\r\n");
+      out.write("      <div class=\"logo\">\r\n");
+      out.write("        <h1><a href=\"index.html\"><span>GAMIFIED E-LEARNING </span></a></h1>\r\n");
+      out.write("      </div>\r\n");
+      out.write("      <div class=\"clr\"></div>\r\n");
+      out.write("      <div class=\"slider\">\r\n");
+      out.write("        <div id=\"coin-slider\"> <a href=\"#\"><img src=\"images/slide1.jpg\" width=\"960\" height=\"360\" alt=\"\" /></a> <a href=\"#\"><img src=\"images/slide2.jpg\" width=\"960\" height=\"360\" alt=\"\" /></a></div>\r\n");
+      out.write("        <div class=\"clr\"></div>\r\n");
+      out.write("      </div>\r\n");
+      out.write("      <div class=\"clr\"></div>\r\n");
+      out.write("    </div>\r\n");
+      out.write("  </div>\r\n");
+      out.write("  <div class=\"content\">\r\n");
+      out.write("    <div class=\"content_resize\">\r\n");
+      out.write("      <div class=\"mainbar\">\r\n");
+      out.write("        <div class=\"article\">\r\n");
+      out.write("          <h2><span>Welcome </span>to Gamified E-Learning </h2>\r\n");
+      out.write("          <p>&nbsp;</p>\r\n");
+      out.write("          <div class=\"mainbar\">\r\n");
+      out.write("            <div class=\"article style14\">\r\n");
+      out.write("              <h1 align=\"justify\">Python Operator Precedence</h1>\r\n");
+      out.write("              <hr align=\"JUSTIFY\" />\r\n");
+      out.write("              <p align=\"justify\">In Python, an expression contains one orÂ variables,Â literals, andÂ operatorsÂ (arithmetic,Â logical, bitwise, etc.).Â Python interpreterÂ evaluates the expression and the result is either assigned to a variable or used in another statement. Interpreter performs various operations according to the precedence of operators.</p>\r\n");
+      out.write("              <h2 align=\"justify\">Python Operator Precedence</h2>\r\n");
+      out.write("              <p align=\"justify\">An expression may have multiple operators to be evaluated. The operator precedence defines the order in which operators are evaluated. In other words, the order of operator evaluation is determined by the operator precedence.</p>\r\n");
+      out.write("              <p align=\"justify\">If a certain expression contains multiple operators, their order of evaluation is determined by the order of precedence. For example, consider the following expression</p>\r\n");
+      out.write("              <pre data-lang=\"python\" tabindex=\"0\"><div contenteditable=\"plaintext-only\" spellcheck=\"false\"><div align=\"justify\" class=\"style15\">&gt;&gt;&gt; a = 2+3*5  </div></div>\r\n");
+      out.write("              </pre>\r\n");
+      out.write("              <p align=\"justify\">Here, what will be the value ofÂ <strong>a</strong>? - yes it will be 17 (multiply 3 by 5 first and then add 2) or 25 (adding 2 and 3 and then multiply with 5)? Pythonâs operator precedence rule comes into picture here.</p>\r\n");
+      out.write("              <p align=\"justify\">If we consider only the arithmetic operators in Python, the traditionalÂ <strong>BODMAS</strong>Â rule is also employed by Python interpreter, where theÂ <strong>brackets</strong>Â are evaluated first, theÂ <strong>division</strong>Â andÂ <strong>multiplication</strong>Â operators next, followed byÂ <strong>addition</strong>Â andÂ <strong>subtraction</strong>Â operators. Hence, a will become 17 in the above expression.</p>\r\n");
+      out.write("              <p align=\"justify\">In addition to the operator precedence, the associativity of operators is also important. If an expression consists of operators with same level of precedence, the associativity determines the order. Most of the operators have left to right associativity. It means, the operator on the left is evaluated before the one on the right.</p>\r\n");
+      out.write("              <p align=\"justify\">Let us consider another expression:</p>\r\n");
+      out.write("              <pre data-lang=\"python\" tabindex=\"0\"><div contenteditable=\"plaintext-only\" spellcheck=\"false\"><div align=\"justify\" class=\"style15\">&gt;&gt;&gt; b = 10/5*4  </div></div>\r\n");
+      out.write("              </pre>\r\n");
+      out.write("              <p align=\"justify\">In this case, both * (multiplication) and / (division) operators have same level of precedence. However, the left to right associativity rule performs the division first (10/5 = 2) and then the multiplication (2*4 = 8).</p>\r\n");
+      out.write("              <h2 align=\"justify\">Python Operator Precedence Table</h2>\r\n");
+      out.write("              <p align=\"justify\">The following table lists all the operators in Python in their decreasing order of precedence. Operators in the same cell under the Operators column have the same precedence.</p>\r\n");
+      out.write("              <div>\r\n");
+      out.write("                <div align=\"justify\">\r\n");
+      out.write("                  <table>\r\n");
+      out.write("                    <tbody>\r\n");
+      out.write("                      <tr>\r\n");
+      out.write("                        <th>Sr.No.</th>\r\n");
+      out.write("                        <th>Operator &amp; Description</th>\r\n");
+      out.write("                      </tr>\r\n");
+      out.write("                      <tr>\r\n");
+      out.write("                        <td>1</td>\r\n");
+      out.write("                        <td><p><strong>(),[], {}</strong></p>\r\n");
+      out.write("                            <p>Parentheses and braces</p></td>\r\n");
+      out.write("                      </tr>\r\n");
+      out.write("                      <tr>\r\n");
+      out.write("                        <td>2</td>\r\n");
+      out.write("                        <td><p><strong>[index], [index:index]</strong></p>\r\n");
+      out.write("                            <p>Subscription, slicing,</p></td>\r\n");
+      out.write("                      </tr>\r\n");
+      out.write("                      <tr>\r\n");
+      out.write("                        <td>3</td>\r\n");
+      out.write("                        <td><p><strong>await x</strong></p>\r\n");
+      out.write("                            <p>Await expression</p></td>\r\n");
+      out.write("                      </tr>\r\n");
+      out.write("                      <tr>\r\n");
+      out.write("                        <td>4</td>\r\n");
+      out.write("                        <td><p><strong>**</strong></p>\r\n");
+      out.write("                            <p>Exponentiation</p></td>\r\n");
+      out.write("                      </tr>\r\n");
+      out.write("                      <tr>\r\n");
+      out.write("                        <td>5</td>\r\n");
+      out.write("                        <td><p><strong>+x, -x, ~x</strong></p>\r\n");
+      out.write("                            <p>Positive, negative, bitwise NOT</p></td>\r\n");
+      out.write("                      </tr>\r\n");
+      out.write("                      <tr>\r\n");
+      out.write("                        <td>6</td>\r\n");
+      out.write("                        <td><p><strong>*, @, /, //, %</strong></p>\r\n");
+      out.write("                            <p>Multiplication, matrix multiplication, division, floor division, remainder</p></td>\r\n");
+      out.write("                      </tr>\r\n");
+      out.write("                      <tr>\r\n");
+      out.write("                        <td>7</td>\r\n");
+      out.write("                        <td><p><strong>+, -</strong></p>\r\n");
+      out.write("                            <p>Addition and subtraction</p></td>\r\n");
+      out.write("                      </tr>\r\n");
+      out.write("                      <tr>\r\n");
+      out.write("                        <td>8</td>\r\n");
+      out.write("                        <td><p><strong>&lt;&lt;, &gt;&gt;</strong></p>\r\n");
+      out.write("                            <p>Left Shifts, Right Shifts</p></td>\r\n");
+      out.write("                      </tr>\r\n");
+      out.write("                      <tr>\r\n");
+      out.write("                        <td>9</td>\r\n");
+      out.write("                        <td><p><strong>&amp;</strong></p>\r\n");
+      out.write("                            <p>Bitwise AND</p></td>\r\n");
+      out.write("                      </tr>\r\n");
+      out.write("                      <tr>\r\n");
+      out.write("                        <td>10</td>\r\n");
+      out.write("                        <td><p><strong>^</strong></p>\r\n");
+      out.write("                            <p>Bitwise XOR</p></td>\r\n");
+      out.write("                      </tr>\r\n");
+      out.write("                      <tr>\r\n");
+      out.write("                        <td>11</td>\r\n");
+      out.write("                        <td><p><strong>|</strong></p>\r\n");
+      out.write("                            <p>Bitwise OR</p></td>\r\n");
+      out.write("                      </tr>\r\n");
+      out.write("                      <tr>\r\n");
+      out.write("                        <td>12</td>\r\n");
+      out.write("                        <td><p><strong>in, not in, is, is not, &lt;, &lt;=, &gt;, &gt;=, !=, ==</strong></p>\r\n");
+      out.write("                            <p>Comparisons, including membership tests and identity tests</p></td>\r\n");
+      out.write("                      </tr>\r\n");
+      out.write("                      <tr>\r\n");
+      out.write("                        <td>13</td>\r\n");
+      out.write("                        <td><p><strong>not x</strong></p>\r\n");
+      out.write("                            <p>Boolean NOT</p></td>\r\n");
+      out.write("                      </tr>\r\n");
+      out.write("                      <tr>\r\n");
+      out.write("                        <td>14</td>\r\n");
+      out.write("                        <td><p><strong>and</strong></p>\r\n");
+      out.write("                            <p>Boolean AND</p></td>\r\n");
+      out.write("                      </tr>\r\n");
+      out.write("                      <tr>\r\n");
+      out.write("                        <td>15</td>\r\n");
+      out.write("                        <td><p><strong>or</strong></p>\r\n");
+      out.write("                            <p>Boolean OR</p></td>\r\n");
+      out.write("                      </tr>\r\n");
+      out.write("                      <tr>\r\n");
+      out.write("                        <td>16</td>\r\n");
+      out.write("                        <td><p><strong>if â else</strong></p>\r\n");
+      out.write("                            <p>Conditional expression</p></td>\r\n");
+      out.write("                      </tr>\r\n");
+      out.write("                      <tr>\r\n");
+      out.write("                        <td>17</td>\r\n");
+      out.write("                        <td><p><strong>lambda</strong></p>\r\n");
+      out.write("                            <p>Lambda expression</p></td>\r\n");
+      out.write("                      </tr>\r\n");
+      out.write("                      <tr>\r\n");
+      out.write("                        <td>18</td>\r\n");
+      out.write("                        <td><p><strong>:=</strong></p>\r\n");
+      out.write("                            <p>Walrus operator</p></td>\r\n");
+      out.write("                      </tr>\r\n");
+      out.write("                    </tbody>\r\n");
+      out.write("                  </table>\r\n");
+      out.write("                </div>\r\n");
+      out.write("              </div>\r\n");
+      out.write("              <h2 align=\"justify\">Python Operator Precedence Example</h2>\r\n");
+      out.write("              <pre data-lang=\"python3\" data-index=\"0\" id=\"0\" tabindex=\"0\"><div></div><div contenteditable=\"plaintext-only\" spellcheck=\"false\"><div align=\"justify\" class=\"style15\">a = 20  b = 10  c = 15  d = 5  e = 0    e = (a + b) * c / d       #( 30 * 15 ) / 5  print (&quot;Value of (a + b) * c / d is &quot;,  e)    e = ((a + b) * c) / d     # (30 * 15 ) / 5  print (&quot;Value of ((a + b) * c) / d is &quot;,  e)    e = (a + b) * (c / d);    # (30) * (15/5)  print (&quot;Value of (a + b) * (c / d) is &quot;,  e)    e = a + (b * c) / d;      #  20 + (150/5)  print (&quot;Value of a + (b * c) / d is &quot;,  e)  </div></div>\r\n");
+      out.write("              </pre>\r\n");
+      out.write("              <p align=\"justify\">When you execute the above program, it produces the following result â</p>\r\n");
+      out.write("              <div align=\"justify\">\r\n");
+      out.write("                <pre class=\"style15\">Value of (a + b) * c / d is  90.0  Value of ((a + b) * c) / d is  90.0  Value of (a + b) * (c / d) is  90.0  Value of a + (b * c) / d is  50.0  </pre>\r\n");
+      out.write("              </div>\r\n");
+      out.write("              </div>\r\n");
+      out.write("          </div>\r\n");
+      out.write("          \r\n");
+      out.write("        </div>\r\n");
+      out.write("      </div>\r\n");
+      out.write("      <div class=\"sidebar\">\r\n");
+      out.write("        <div class=\"gadget\">\r\n");
+      out.write("          <h2 class=\"star\"><span>Sidebar</span> Menu</h2>\r\n");
+      out.write("          <div class=\"clr\"></div>\r\n");
+      out.write("          <ul class=\"sb_menu\">\r\n");
+      out.write("            <li>\r\n");
+      out.write("              <p><a href=\"pythonbasic.jsp\">BasicSyntax</a></p>\r\n");
+      out.write("              <a href=\"pythonvariables.jsp\">Variables</a></li>\r\n");
+      out.write("            <li><a href=\"pythondatatypes.jsp\">Datatypes</a></li>\r\n");
+      out.write("            <li><a href=\"pythoncasting.jsp\">TypeCasting</a></li>\r\n");
+      out.write("            <li><a href=\"pythonuniode.jsp\">UnicodeSystems</a></li>\r\n");
+      out.write("            <li><a href=\"pythonoperators.jsp\">Operators</a></li>\r\n");
+      out.write("            <li><a href=\"userpage.jsp\">Back</a></li>\r\n");
+      out.write("            <li></li>\r\n");
+      out.write("            <li><a href=\"userlogin.jsp\"></a></li>\r\n");
+      out.write("            <li><a href=\"register.jsp\"></a></li>\r\n");
+      out.write("            <li></li>\r\n");
+      out.write("          </ul>\r\n");
+      out.write("        </div>\r\n");
+      out.write("      </div>\r\n");
+      out.write("      <div class=\"clr\"></div>\r\n");
+      out.write("    </div>\r\n");
+      out.write("  </div>\r\n");
+      out.write("  <div class=\"footer\">\r\n");
+      out.write("    <div class=\"footer_resize\">\r\n");
+      out.write("      <p class=\"rf\">&nbsp;</p>\r\n");
+      out.write("      <p class=\"rf\">&nbsp;</p>\r\n");
+      out.write("      <p class=\"rf\">&nbsp;</p>\r\n");
+      out.write("      <p class=\"rf\">&nbsp;</p>\r\n");
+      out.write("      <div style=\"clear:both;\"></div>\r\n");
+      out.write("    </div>\r\n");
+      out.write("  </div>\r\n");
+      out.write("</div>\r\n");
+      out.write("<div align=center></div>\r\n");
+      out.write("</body>\r\n");
+      out.write("</html>\r\n");
+    } catch (Throwable t) {
+      if (!(t instanceof SkipPageException)){
+        out = _jspx_out;
+        if (out != null && out.getBufferSize() != 0)
+          out.clearBuffer();
+        if (_jspx_page_context != null) _jspx_page_context.handlePageException(t);
+        else throw new ServletException(t);
+      }
+    } finally {
+      _jspxFactory.releasePageContext(_jspx_page_context);
+    }
+  }
+}
